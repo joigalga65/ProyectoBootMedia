@@ -43,6 +43,7 @@ function LoginPage() {
             Recordarme
           </label>
         </div>
+        
 
         {/* Botón de login */}
         <button className="btn btn-primary w-100 mb-3">Ingresar</button>

@@ -5,6 +5,11 @@ import ForgotPage from "./pages/forgotPage/ForgotPage.jsx";
 import ResetPage from "./pages/resetPage/Resetpage.jsx";
 import DashboardPage from "./pages/dashboard/DashboardPage.jsx";
 
+/*Rutas para practicar hooks */
+import HomeHooks from "./playground/HomeHooks.jsx";
+import HookUseState from "./playground/HookUseState.jsx";
+// import HookUseNavigate from "./playground/HookUseNavigate.jsx";
+
 function App() {
   return (
 
@@ -16,6 +21,12 @@ function App() {
       <Route path="/forgot" element={<ForgotPage />} />
       <Route path="/reset" element={<ResetPage />} />
       <Route path="/dashboard" element={<DashboardPage />} />
+
+
+      /*Rutas de playground para hooks*/
+      <Route path="/hooks" element={<HomeHooks />} />
+      <Route path="/usestate" element={<HookUseState />} />
+      {/* <Route path="/usenavigate" element={<HookUseNavigate />} /> */}
 
     </Routes>
     </BrowserRouter>

@@ -87,7 +87,7 @@ console.log("HomeHooks está cargando...");
                     {hooks.map((item, index) => (
                         <tr key={index}>
                             <td>{item.hook}</td>
-                            <td><Link to={item.ruta} className="btn btn-primary btn-sm">Ver Ejemplo</Link></td>
+                            <td><Link to={item.ruta} className="btn btn-success btn-sm">Ver Ejemplo</Link></td>
 
                             
                             <td>{item.descripcion}</td>
